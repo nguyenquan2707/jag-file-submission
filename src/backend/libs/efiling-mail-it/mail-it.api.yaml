@@ -61,7 +61,7 @@ components:
             $ref: '#/components/schemas/email_object'
         subject:
           type: string
-          description: 'The global, or “message level”, subject of your email. This may be overridden by personalizations[x].subject.'
+          description: 'The global, or ï·¿message levelï·¿, subject of your email. This may be overridden by personalizations[x].subject.'
           minLength: 1
         content:
           type: object
@@ -69,7 +69,7 @@ components:
           properties:
             type:
               type: string
-              description: 'The mime type of the content you are including in your email. For example, “text/plain” or “text/html”.'
+              description: 'The mime type of the content you are including in your email. For example, ï·¿text/plainï·¿ or ï·¿text/htmlï·¿.'
               minLength: 1
             value:
               type: string
